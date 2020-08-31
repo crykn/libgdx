@@ -9,12 +9,12 @@
 [![Discord Chat](https://img.shields.io/discord/348229412858101762?logo=discord)](https://discord.gg/7c6Wg8H)
 
 ## Cross-platform Game Development Framework
-**[libGDX](https://libgdx.github.io) is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, iOS and your WebGL enabled browser.** It provides a well-tried and robust environment for rapid prototyping and fast iterations. LibGDX does not force a specific design or coding style on you, it rather gives you the freedom to create a game the way you like it.
+**[libGDX](https://libgdx.github.io) is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, macOS, Android, iOS and your WebGL enabled browser.** It provides a well-tried and robust environment for rapid prototyping and fast iterations. libGDX does not force a specific design or coding style on you, it rather gives you the freedom to create a game the way you like it.
 
 ## Open Source, Feature Packed and Offering a Big Third-party Ecosystem
-LibGDX is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) meaning you can use it free of charge, without strings attached in commercial and non-commercial projects. We love to get (non-mandatory) credit in case you release a game or app using libgdx! LibGDX comes with batteries included. See our [showcase](https://libgdx.github.io/showcase/) for a selection of 2D and 3D games developed with libGDX. 
+libGDX is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) meaning you can use it free of charge, without strings attached in commercial and non-commercial projects. We love to get (non-mandatory) credit in case you release a game or app using the framework! libGDX comes with batteries included. See our [showcase](https://libgdx.github.io/showcase/) for a selection of 2D and 3D games developed with it. 
 
-LibGDX also offers a very extensive third-party ecosystem. There are numerous [tools](https://libgdx.github.io/dev/tools/) and libraries that take a lot of work off the hands of developers. Take a look at [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx#readme) for a curated list of libGDX-centered libraries and a good starting point for anyone new in the libGDX world.
+libGDX also offers a very extensive third-party ecosystem. There are numerous [tools](https://libgdx.github.io/dev/tools/) and libraries that take a lot of work off the hands of developers. Take a look at [Awesome-libGDX](https://github.com/rafaskb/awesome-libgdx#readme) for a curated list of libGDX-centered libraries and a good starting point for anyone new in the libGDX world.
 
 ![](https://libgdx.github.io/assets/images/index_showcase/game0.png)
 ###### One example for a libGDX game: [Pathway](https://store.steampowered.com/app/546430/Pathway/) by Robotality. Find more games in our [showcase](https://libgdx.github.io/showcase/).
@@ -25,7 +25,7 @@ As we switched to Gradle, there's no need to download libGDX itself anymore. We 
 We also provide [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/) online. The Javadocs are also bundled as source Jars with every libGDX distribution for consumption in your favorite IDE.
 
 ## Community & Contributing
-You can follow the latest news about libGDX on the [blog](https://libgdx.github.io/news/). A good way to get in touch with our community is to join the official [libGDX discord](https://discord.gg/6pgDK9F).
+You can follow the latest news about libGDX on the [blog](https://libgdx.github.io/news/). A good way to get in touch with our community is to join the official [libGDX Discord](https://discord.gg/6pgDK9F).
 
 ### Reporting Issues
 Use the **[issue tracker](https://github.com/libgdx/libgdx/issues)** here on GitHub to report issues. Make sure you read the [Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-help) article that walks you through the process of properly reporting an issue.
