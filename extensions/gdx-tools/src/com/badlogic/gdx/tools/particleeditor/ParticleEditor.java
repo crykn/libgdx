@@ -86,20 +86,26 @@ public class ParticleEditor extends JFrame {
 	public ParticleEditor () {
 		super("Particle Editor");
 
-		renderer = new Renderer();
-		lwjglCanvas = new Lwjgl3AWTCanvas(renderer);
-		addWindowListener(new WindowAdapter() {
-			public void windowClosed (WindowEvent event) {
-				System.exit(0);
-				// Gdx.app.quit();
-			}
-		});
+		try {
+			EventQueue.invokeAndWait(() -> {
+				renderer = new Renderer();
+				lwjglCanvas = new Lwjgl3AWTCanvas(renderer);
+				addWindowListener(new WindowAdapter() {
+					public void windowClosed (WindowEvent event) {
+						System.exit(0);
+						// Gdx.app.quit();
+					}
+				});
 
-		initializeComponents();
+				initializeComponents();
+				setSize(1000, 950);
+				setLocationRelativeTo(null);
+				setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+			});
+		} catch (InterruptedException | InvocationTargetException e) {
+			e.printStackTrace();
+		}
 
-		setSize(1000, 950);
-		setLocationRelativeTo(null);
-		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setVisible(true);
 	}
 
@@ -631,10 +637,7 @@ public class ParticleEditor extends JFrame {
 				break;
 			}
 		}
-		EventQueue.invokeLater(new Runnable() {
-			public void run () {
-				new ParticleEditor();
-			}
-		});
+
+		new ParticleEditor();
 	}
 }
