@@ -1,4 +1,4 @@
-![logo](https://libgdx.com/assets/images/logo.png) 
+![logo](https://libgdx.com/assets/images/logo.png)
 
 [![Jenkins build status](https://libgdx.badlogicgames.com/jenkins/buildStatus/icon?subject=Jenkins&job=libgdx&.png)](https://libgdx.badlogicgames.com/jenkins/job/libgdx/) 
 [![GitHub Actions build status](https://img.shields.io/github/workflow/status/libgdx/libgdx/Java%20CI%20with%20Gradle/master?label=GitHub%20Actions)](https://github.com/libgdx/libgdx/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
